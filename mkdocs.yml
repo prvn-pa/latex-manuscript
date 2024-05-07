@@ -20,3 +20,4 @@ extra:
   generator: false
 markdown_extensions:
   - pymdownx.betterem
+  - pymdownx.keys
