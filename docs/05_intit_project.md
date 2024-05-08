@@ -28,4 +28,4 @@ aaaaaaaaaaaaaaaaaaaaaaa
 - click that icon, you could see a message box, followed by commit button and a list of changes
 - in the message box type a readable message like `files initiated` and click commit
 - the message is crucial, because if you want to switch back to particular version later you can directly read the commit message and switch to it. If you use same message for different commits it would be hard to locate you version of interest
-- 
+- now 
