@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../02_installation/">
+        <link rel="prev" href="../03_editor/">
       
       
-        <link rel="next" href="../04_git/">
+        <link rel="next" href="../05_intit_project/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Editor - Writing with LaTex and Git</title>
+        <title>Setting up Git and Github - Writing with LaTex and Git</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#editor" class="md-skip">
+        <a href="#setting-up-git-and-github" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Editor
+              Setting up Git and Github
             
           </span>
         </div>
@@ -308,6 +308,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_editor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -324,7 +344,7 @@
           
   
   <span class="md-ellipsis">
-    Editor
+    Setting up Git and Github
   </span>
   
 
@@ -335,7 +355,7 @@
         
   
   <span class="md-ellipsis">
-    Editor
+    Setting up Git and Github
   </span>
   
 
@@ -357,27 +377,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setting-up" class="md-nav__link">
+  <a href="#git-installation" class="md-nav__link">
     <span class="md-ellipsis">
-      Setting-up
+      Git Installation
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#using-vs-code" class="md-nav__link">
+  <a href="#github-account-and-gh-cli" class="md-nav__link">
     <span class="md-ellipsis">
-      Using VS-Code
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#list-of-recommended-extensions" class="md-nav__link">
-    <span class="md-ellipsis">
-      List of recommended extensions
+      Github Account and gh-cli
     </span>
   </a>
   
@@ -387,26 +398,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../04_git/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Setting up Git and Github
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -458,27 +449,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setting-up" class="md-nav__link">
+  <a href="#git-installation" class="md-nav__link">
     <span class="md-ellipsis">
-      Setting-up
+      Git Installation
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#using-vs-code" class="md-nav__link">
+  <a href="#github-account-and-gh-cli" class="md-nav__link">
     <span class="md-ellipsis">
-      Using VS-Code
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#list-of-recommended-extensions" class="md-nav__link">
-    <span class="md-ellipsis">
-      List of recommended extensions
+      Github Account and gh-cli
     </span>
   </a>
   
@@ -502,28 +484,26 @@
   
 
 
-<h1 id="editor">Editor</h1>
-<p>If you're installing a windows version, by default you got a <em>MikTex editor</em>. In Linux, you can combine default editors like <em>gedit</em> and terminal to write and compile the documents. There are dedicated LaTeX editors like <em>Kile</em> is available. However, I would recommend a general purpose editor <strong>Visual Studio (VS) Code</strong>, mainly because, you can easily integrate with Github as well as can enjoy the additional capabilities with its extensions. Summarizing below the minimal procedure and recommended add-ons for VS code.</p>
-<h2 id="setting-up">Setting-up</h2>
+<h1 id="setting-up-git-and-github">Setting up Git and Github</h1>
+<h2 id="git-installation">Git Installation</h2>
 <ul>
-<li>In windows, VS code can either install from the Microsoft store or by directly downloading the executable from <a href="https://code.visualstudio.com/download">here</a>.</li>
-<li>For Linux, if you're using Debian or RedHat based distribution, you can download the binaries from the same link above. Alternatively, if you use Flatpak or Snap packages, you can download the corresponding files. For Arch, <em>AUR</em> repositories are also available.</li>
-<li>In addition, if you do not wish to use the enterprise backed version, there is an open source version, in the name <a href="https://vscodium.com/#install"><strong>VS Codium</strong></a>. However, you can not use the default settings sync options. Read more about and possible issues <a href="https://www.roboleary.net/tools/2022/06/13/migrate-from-vscode-to-vscodium-on-linux.html">here</a>.</li>
+<li>In Debian based systems, install git by the command <code>sudo apt install git</code>.</li>
+<li>Usually, most of the Linux systems comes with git pre-installed.</li>
+<li>In windows, download the installer from <a href="https://gitforwindows.org/">(https://gitforwindows.org/)</a>. Run it with administrator privileges. Accept the default values and choose Windows Command Prompt for accessing git.</li>
+<li>Verify the installation by <code>git --version</code> in terminal/Command Prompt</li>
+<li>Once you installed <code>git</code> define global username and mail ID from terminal or command prompt.</li>
 </ul>
-<h2 id="using-vs-code">Using VS-Code</h2>
-<p>VS Code has three major interfaces. The left panel contains the shortcuts to the extensions along with file browser. The extension manager is also available here. The right panel is divided into two parts, editor and compiler. Often the compiler is hidden and you can toggle it with the keyboard shortcut <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd>~</kbd></span></p>
-<h2 id="list-of-recommended-extensions">List of recommended extensions</h2>
-<ol>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks">Bookmarks</a></li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker">Code Spell Checker</a></li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph">Git Graph</a></li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub">Github repositories</a></li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=torn4dom4n.latex-support">Latex language support</a></li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense">Path Intellisense</a></li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager">Project Manager</a></li>
-<li><a href="https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf">VSCode-PDF</a></li>
-</ol>
-<p>Here I recommend the simple <strong>Latex Language Support</strong> extension along with the <strong>VS Code PDF</strong> for the highlighting and view pdf within VS Code Editor. However, there are more better options like <a href="https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf"><strong>Latex Workshop</strong></a> are available. They provide more better features, though I wish to stick with the simpler and straight forward options.</p>
+<pre><code>$ git config --global user.name &quot;Your Name&quot;   
+$ git config --global user.email &quot;your@mail.id&quot;
+</code></pre>
+<h2 id="github-account-and-gh-cli">Github Account and <code>gh-cli</code></h2>
+<ul>
+<li>the account registration with github.com is straightforward</li>
+<li>for safety it is recommended to use <code>github-cli</code>. You can download the binaries from here: <a href="https://cli.github.com/">https://cli.github.com/</a></li>
+<li>it can be used without <code>github-cli</code> however the process is time consuming and you have to create tokens and save it locally in your machine.</li>
+<li>once it is installed authenticate it using <code>gh auth login</code></li>
+<li>once you authenticated through the browser you can access your github repositories from terminal without need to use browser or app</li>
+</ul>
 
 
 
