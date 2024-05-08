@@ -1,5 +1,7 @@
 # Introduction
 
+**[The website is in progress]**
+
 Research writing is increasingly a team effort; often multiple people contribute to different manuscript parts. This follows corrections, additions and revisions at different stages. So, a version control system like `git` could simplify the process at many levels.
 
 This documentation aims to provide a brief yet complete account of integrating LaTex with Git. In addition, when the project is integrated with [github](https://github.com/), it provides seamless collaboration and cloud-syncing.
