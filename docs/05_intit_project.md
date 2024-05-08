@@ -23,7 +23,7 @@ Go to your preferred folder, where you're planning to keep your manuscript file.
 aaaaaaaaaaaaaaaaaaaaaaa
 ```
 
--save it
+- save it
 - now you can see a number badge on the left panel, source control
 - click that icon, you could see a message box, followed by commit button and a list of changes
 - in the message box type a readable message like `files initiated` and click commit
@@ -52,3 +52,13 @@ aaaaaaaaaaaaaaaaaaaaaaa
 ```
 
 - save and sync
+
+## Note
+
+- you can first create a file and folder, than it can also be added to github
+- for that make sure you have git and github-cli -- create a repository using `gh`
+- then in your local folder, initiate git by `git init`
+- then follow add and commit the files
+- now, add your local directory to the github by `git remote add origin REMOTE-URL`
+- check it is properly configured by `git remote -v`
+- then sync by the command `git push` or `git push origin main`
