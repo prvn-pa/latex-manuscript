@@ -28,3 +28,27 @@ aaaaaaaaaaaaaaaaaaaaaaa
 - click that icon, you could see a message box, followed by commit button and a list of changes
 - in the message box type a readable message like `files initiated` and click commit
 - the message is crucial, because if you want to switch back to particular version later you can directly read the commit message and switch to it. If you use same message for different commits it would be hard to locate you version of interest
+- now click the `Sync` option to sync with github account. if you open your github repository in the browser you should see the updated file.
+
+## Alternate ways to sync
+
+- even without VS Code, you can commit and sync with github (however gh-cli is essential to clone and push)
+- to do that, first add the files to git tracking by `git add .` this will add all the files
+- then commit it by `git commit -m 'files initiated`
+- finally, sync to github by `git push origin main` or simply `git push` 
+
+## Add only selected files
+
+- when compiling the tex file it would produce log files and auxilary files. which you often no required to sync with the cloud.
+- you can safely ignore these files by creating a `.gitignore` file.
+- click add a new file and name it as `.gitignore` - note the `.` prior to the name
+- open the file and add the extension of files you wish to exclude from sync
+
+```
+# the following files has to be ignored
+
+.log
+.aux
+```
+
+- save and sync
