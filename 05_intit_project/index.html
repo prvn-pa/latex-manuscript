@@ -439,6 +439,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#note" class="md-nav__link">
+    <span class="md-ellipsis">
+      Note
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -518,6 +527,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#note" class="md-nav__link">
+    <span class="md-ellipsis">
+      Note
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -557,12 +575,14 @@
 </ul>
 <pre><code>aaaaaaaaaaaaaaaaaaaaaaa
 </code></pre>
-<p>-save it
-- now you can see a number badge on the left panel, source control
-- click that icon, you could see a message box, followed by commit button and a list of changes
-- in the message box type a readable message like <code>files initiated</code> and click commit
-- the message is crucial, because if you want to switch back to particular version later you can directly read the commit message and switch to it. If you use same message for different commits it would be hard to locate you version of interest
-- now click the <code>Sync</code> option to sync with github account. if you open your github repository in the browser you should see the updated file.</p>
+<ul>
+<li>save it</li>
+<li>now you can see a number badge on the left panel, source control</li>
+<li>click that icon, you could see a message box, followed by commit button and a list of changes</li>
+<li>in the message box type a readable message like <code>files initiated</code> and click commit</li>
+<li>the message is crucial, because if you want to switch back to particular version later you can directly read the commit message and switch to it. If you use same message for different commits it would be hard to locate you version of interest</li>
+<li>now click the <code>Sync</code> option to sync with github account. if you open your github repository in the browser you should see the updated file.</li>
+</ul>
 <h2 id="alternate-ways-to-sync">Alternate ways to sync</h2>
 <ul>
 <li>even without VS Code, you can commit and sync with github (however gh-cli is essential to clone and push)</li>
@@ -584,6 +604,16 @@
 </code></pre>
 <ul>
 <li>save and sync</li>
+</ul>
+<h2 id="note">Note</h2>
+<ul>
+<li>you can first create a file and folder, than it can also be added to github</li>
+<li>for that make sure you have git and github-cli -- create a repository using <code>gh</code></li>
+<li>then in your local folder, initiate git by <code>git init</code></li>
+<li>then follow add and commit the files</li>
+<li>now, add your local directory to the github by <code>git remote add origin REMOTE-URL</code></li>
+<li>check it is properly configured by <code>git remote -v</code></li>
+<li>then sync by the command <code>git push</code> or <code>git push origin main</code></li>
 </ul>
 
 
