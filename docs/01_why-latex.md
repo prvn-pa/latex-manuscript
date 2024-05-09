@@ -1,16 +1,16 @@
-# Why LaTeX? Moreover, what are Git and Github?
+# Why LaTeX? And, what are Git and Github?
 
 ## Why LaTeX?
 
-LaTeX is a text-processing software. You might have used Word or a similar kind of package already. In that, you type and format the manuscript by yourself. Such editors are called What You See Is What You Get (WYSIWYG). Instead, in LaTeX, you often tell the compiler how you wish to see the document and give your marked text as input. The software then compiles it and gives you the final output, often as a PDF.
+LaTeX is a text-processing software. You might have used Word or a similar kind of package already. In that, you type the text and format the manuscript by yourself. Such editors are called What You See Is What You Get (WYSIWYG). Instead, in LaTeX, you often tell the compiler how you wish to see the document and give your marked text as input. The software then compiles it and gives you the final output, often as a PDF. [LaTeX wiki](https://en.wikipedia.org/wiki/LaTeX)
 
-Such a process may seem complicated. However, once you set up your template and know how to mark up things, using LaTeX is very convenient. Primarily when you handle large documents like a thesis. Further, plain text is advantageous for tracking changes. Though it is possible to implement version control in WYSIWYG editors, plain texts like LaTeX files occupy less space and are easy to use.
+Such a process may seem complicated. However, once you set up your template and know how to mark up things, using LaTeX is very convenient. Such setup is very helpful when you handle large documents like a thesis. Further, plain text is advantageous for tracking changes. Though it is possible to implement version control in WYSIWYG editors, plain texts like LaTeX files occupy less space and are easy to track the changes.
 
 In addition, managing and compiling references is much easier in LaTeX than in word processors. For style, just changing the name is often enough and handy when you switch between journals.
 
 ## What is Git?
 
-Git is a version control system. It keeps track of the changes you make in text files. Such a system is crucial for dealing with codes. A detailed account of what git is and how it can be used is found in this [link](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F). When implemented in a LaTeX document, multiple people can work on the same document without distracting others' thoughts and flow. Further, you can track back to any changes and can switch between the branches and versions.
+Git is a version control system. It keeps track of the changes you make in text files. Such a system is crucial for dealing with codes and often used by IT professionals. A detailed account of what git is and how it can be used is found in this [link](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F). When implemented in a LaTeX document, git allows, multiple people can work on the same document without distracting others' thoughts and flow. Further, you can track back to any changes and can switch between the branches and versions (we will see this in-detail later).
 
 ## What is Github?
 

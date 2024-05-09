@@ -10,7 +10,7 @@ The complete installation can be done by downloading the `texlive` ISO file from
 <source src="../media/acq.webm" type="video/webm">
 </video>
 
-Once downloaded, in linux, right-click the file and mount as a directory. In latest windows double click the file should mount the file as virtual drive. For older windows, extra software like [wincdemu](https://wincdemu.sysprogs.org/) is required to mount the file as drive.
+Once downloaded, in linux, right-click the file and mount as a directory. In latest windows (10 & 11) double click the file should mount the file as virtual drive. For older windows, extra software like [wincdemu](https://wincdemu.sysprogs.org/) is required to mount the file as drive.
 
 ## Installing the package
 

@@ -1,6 +1,6 @@
 # Introduction
 
-**[The website is in progress]**
+## [The website is in progress]
 
 Research writing is increasingly a team effort; often multiple people contribute to different manuscript parts. This follows corrections, additions and revisions at different stages. So, a version control system like `git` could simplify the process at many levels.
 
@@ -8,25 +8,16 @@ This documentation aims to provide a brief yet complete account of integrating L
 
 ## Outline
 
-There are three parts to the documentation. Part one focuses on introduction to LaTeX and its installation. The second part focuses on preparing a manuscript with LaTeX. It introduces the preamble, sections and other options in detail. The final part discusses the integration of LaTeX with Git and Github. A template file is available within this repository, and you can use it from the header link.
+There are three parts to the documentation. Part one focuses on the introduction, installation and configuration of necessary packages. The second part focuses on preparing a manuscript with LaTeX. It introduces the preamble, sections and other options in detail. The final part discusses some of advanced options like branching and using dedicated editors like VS Code or web based solutions.
 
-### Part - 1
+## Audience
 
-1. Why LaTex, Git and Github?
-2. Installation
-3. Editor
+- Unless you want ensure the necessity of LaTeX and Git, you can safely skip the introduction part.
+- If you're familiar with LaTeX installation or already using it, you can skip the installation part too. You may refer only the installation of `git` and `github-cli`.
+- Also, this guide is aimed for those who start learning LaTeX. If you're already using LaTeX, there is nothing new for you to learn from the manuscript preparation part. You may refer only the `git` part, from the corresponding sections.
 
-### Part -2
+## Recommended Usage
 
-4. Manuscript Structure
-5. Preamble and Sections
-6. Tables and Figures
-7. Equations and Inline Math 
-8. References
-
-### Part -3 
-
-9.  Configuring git and github
-10. Tracking Changes
-11. Branches
-
+- It is better use this guide as a tutorial
+- Read along with experimenting the things
+- [Please let me know](mailto:prvnpa4@gmail.com), if you struck at some point or wish to provide me a feedback.
